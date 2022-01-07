@@ -1,6 +1,6 @@
 {
 	"name": "@robowhale/phaser3-ninepatch-types-fix",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Typescript definitions for phaser3-ninepatch-plugin",
 	"main": "index.js",
 	"scripts": {
@@ -28,5 +28,9 @@
 	"homepage": "https://github.com/vforsh/phaser3-ninepatch-types-fix#readme",
 	"peerDependencies": {
 		"@koreez/phaser3-ninepatch": "^2.0.2"
-	}
+	},
+	"files": [
+		"phaser3-ninepatch.d.ts",
+		"README.md"
+	]
 }
