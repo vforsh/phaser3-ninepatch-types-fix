@@ -3,6 +3,10 @@
 	"version": "1.0.3",
 	"description": "Typescript definitions for phaser3-ninepatch-plugin",
 	"main": "index.d.ts",
+	"types": "index.d.ts",
+	"files": [
+		"index.d.ts.d.ts"
+	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -29,16 +33,9 @@
 	"peerDependencies": {
 		"@koreez/phaser3-ninepatch": "^2.0.2"
 	},
-	"files": [
-		"index.d.ts.d.ts"
-	],
-	"types": "index.d.ts",
 	"devDependencies": {
 		"@koreez/phaser3-ninepatch": "^2.0.2",
 		"np": "^7.6.0",
 		"phaser": "^3.55.2"
-	},
-	"publishConfig": {
-		"access": "public"
 	}
 }
