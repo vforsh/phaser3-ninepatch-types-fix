@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"types": [
+			"phaser"
+		]
+	},
+	"exclude": [
+		"**/node_modules",
+		"**/.*/"
+	],
+	"include": [
+		"index.d.ts"
+	]
+}

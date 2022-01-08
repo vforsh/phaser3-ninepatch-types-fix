@@ -2,7 +2,7 @@
 	"name": "@robowhale/phaser3-ninepatch-types-fix",
 	"version": "1.0.1",
 	"description": "Typescript definitions for phaser3-ninepatch-plugin",
-	"main": "index.js",
+	"main": "index.d.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -30,7 +30,12 @@
 		"@koreez/phaser3-ninepatch": "^2.0.2"
 	},
 	"files": [
-		"phaser3-ninepatch.d.ts",
-		"README.md"
-	]
+		"index.d.ts.d.ts"
+	],
+	"types": "index.d.ts",
+	"devDependencies": {
+		"@koreez/phaser3-ninepatch": "^2.0.2",
+		"np": "^7.6.0",
+		"phaser": "^3.55.2"
+	}
 }
