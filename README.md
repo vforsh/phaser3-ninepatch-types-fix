@@ -13,10 +13,10 @@ Install the package
 npm install @robowhale/phaser3-ninepatch-types-fix
 ```
 
-Then add `phaser3-ninepatch.d.ts` file to the `files` section of `tsconfig.json`
+Then add `index.d.ts` file to the `files` section of `tsconfig.json`
 ```
 "files": [
-    "node_modules/@robowhale/phaser3-ninepatch-types-fix/phaser3-ninepatch.d.ts"
+    "node_modules/@robowhale/phaser3-ninepatch-types-fix/index.d.ts"
 ]
 ```
 
