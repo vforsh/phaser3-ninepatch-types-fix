@@ -1,6 +1,6 @@
 {
 	"name": "@robowhale/phaser3-ninepatch-types-fix",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Typescript definitions for phaser3-ninepatch-plugin",
 	"main": "index.d.ts",
 	"scripts": {
